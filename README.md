@@ -16,7 +16,8 @@ A tool for annotating video files with timestamps and labels, particularly usefu
 
 ### Local Setup
 
-1. Clone the repository:
+Clone the repository:
+
 ```bash
     git clone https://github.com/MandarBhurchandi/Video_frame_annotation.git
 ```
@@ -38,3 +39,6 @@ Build and run using Docker Compose:
 ```bash 
     docker-compose up --build
 ```
+
+access the Gradio app on http://0.0.0.0:7860
+Note: To pass videos to the gradio app, you need to put the videos in the "videos" directory, and pass "app/videos/<file_name>" as path to the video. Then run the docker compose command. 
