@@ -1,0 +1,28 @@
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+
+# Video directories
+videos/
+
+# Annotation files
+*.json
+annotations/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
