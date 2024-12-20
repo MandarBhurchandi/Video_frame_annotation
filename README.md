@@ -18,23 +18,23 @@ A tool for annotating video files with timestamps and labels, particularly usefu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/MandarBhurchandi/Video_frame_annotation.git
-
+    git clone https://github.com/MandarBhurchandi/Video_frame_annotation.git
+```
 Install requirements:
 
 ```bash
-  install -r requirements.txt
+    install -r requirements.txt
 ```
 
 Run the application:
 
 ```bash
-python annotator.py
+    python annotator.py
 ```
 Docker Setup
 
 Build and run using Docker Compose:
 
-```bash
-docker-compose up --build
+```bash 
+    docker-compose up --build
 ```
