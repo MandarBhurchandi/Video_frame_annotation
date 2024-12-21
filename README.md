@@ -41,4 +41,4 @@ Build and run using Docker Compose:
 ```
 
 access the Gradio app on http://0.0.0.0:7860
-Note: To pass videos to the gradio app, you need to put the videos in the "videos" directory, and pass "app/videos/<file_name>" as path to the video. Then run the docker compose command. 
+Note: To pass videos to the gradio app, you need to put the videos in the "videos" directory, then run the docker compose command and pass "app/videos/<file_name>" as path to the video. 
